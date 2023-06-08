@@ -1,4 +1,4 @@
-# ChiaEtAl2023
+# ChiaEtAl
 Emergence of cortical network motifs for short-term memory during learning
 
 ### Hardware requirements:
