@@ -18,7 +18,7 @@ This package has been tested and on
 ### Installation guide:
 Download and install MATLAB as instructed on the official website.
 Installation time may vary.
-Downloading of additional dependencies is not required as they have been embedded in the functions.
+Downloading of additional dependencies are not required as they have been embedded in the functions.
 
 ### Demo:
 Open Figure_1.m
@@ -27,7 +27,7 @@ Set the path by adding with subfolders where the folder ‘code’ was saved.
 	base = uigetdir ; % Set path folder ‘data’ (downloaded from Zenodo)
 	data = get_data(parameters); 
 ```
-In instances where (long runtime) is indicated, a pre-processed dataset will be available. You can choose to load the pre-processed dataset.
+In instances where (long runtime) are indicated, a pre-processed dataset will be available. You can choose to load the pre-processed dataset.
 ```
 	load (‘non_matched_dataset.mat’); 
 ```
