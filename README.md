@@ -5,22 +5,22 @@ Emergence of cortical network motifs for short-term memory during learning
 As size of dataset may range from 500mb - 24gb, package requires standard computer with enough RAM to support the in-memory operations.
 Check hardware requirements for MATLAB
 
-#### OS requirements:
+### OS requirements:
 This package has been tested on the following systems:
 	⁃	mac0S: Mojave 10.14.4
 Check OS requirements for MATLAB
 
-#### Software requirements:
+### Software requirements:
 This package has been tested and on
 	⁃	MATLAB R2017a
 	⁃	MATLAB R2018b
 
-#### Installation guide:
+### Installation guide:
 Download and install MATLAB as instructed on the official website.
 Installation time may vary.
 Downloading of additional dependencies are not required as they have been embedded in the functions.
 
-#### Demo:
+### Demo:
 Open Figure_1.m
 Set the path by adding with subfolders where the folder ‘code’ was saved.
 ```
