@@ -7,13 +7,13 @@ Check hardware requirements for MATLAB.
 
 ### OS requirements:
 This package has been tested on the following systems:
-	⁃	mac0S: Mojave 10.14.4
+- mac0S: Mojave 10.14.4
 Check OS requirements for MATLAB
 
 ### Software requirements:
 This package has been tested and on
-	⁃	MATLAB R2017a
-	⁃	MATLAB R2018b
+- MATLAB R2017a
+- MATLAB R2018b
 
 ### Installation guide:
 Download and install MATLAB as instructed on the official website.
