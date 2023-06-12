@@ -24,8 +24,8 @@ Downloading of additional dependencies are not required as they have been embedd
 Open Figure_1.m
 Set the path by adding with subfolders where the folder ‘code’ was saved.
 ```
-	base = uigetdir ; % Set path folder ‘data’ (downloaded from Zenodo)
-	data = get_data(parameters); 
+	base = uigetdir ; % Select ‘data’ path (downloaded from Zenodo)
+	data = get_data(parameters); % (Long runtime)
 ```
 In instances where (long runtime) are indicated, a pre-processed dataset will be available. You can choose to load the pre-processed dataset.
 ```
