@@ -21,8 +21,8 @@ Installation time may vary.
 Downloading of additional dependencies are not required as they have been embedded in the functions.
 
 ### Demo:
-Open Figure_1.m
-Set the path by adding with subfolders where the folder ‘code’ was saved.
+Open Figure_2.m
+Set the path by adding with subfolders where folder ‘code’ was saved.
 ```
 	base = uigetdir ; % Select ‘data’ path (downloaded from Zenodo)
 	data = get_data(parameters); % (Long runtime)
@@ -33,7 +33,7 @@ In instances where (long runtime) are indicated, a pre-processed dataset will be
 ```
 Once loaded, run the function to obtain ROC data for ‘stimulus’.
 ```
-	ROC_population_data.stimulus = get_ROC_choice_stim_mode(parameters, data,’stimulus’);
+	ROC_population_data.stimulus = get_ROC_choice_stim_mode(parameters, data, ’stimulus’);
 ```
 Plot the figure.
 ```
