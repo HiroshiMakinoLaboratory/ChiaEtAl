@@ -9,7 +9,7 @@ git clone https://github.com/HiroshiMakinoLaboratory/ChiaEtAl.git
 
 2. Create a conda environment and install gamma
 ```
-cd ChiaEtAl
+cd ChiaEtAl/Train_RNN
 conda env create -f environment.yml
 conda activate rnn
 ```
