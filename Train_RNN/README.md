@@ -4,7 +4,7 @@
 
 1. Clone
 ```
-git clone https://github.com/Makinolab/FORCE-RNN.git
+git clone https://github.com/HiroshiMakinoLaboratory/ChiaEtAl.git
 ```
 
 2. Create a conda environment and install gamma
