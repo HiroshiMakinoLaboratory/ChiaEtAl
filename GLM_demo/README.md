@@ -11,7 +11,7 @@ This package has been tested on the following systems:
 - Windows 10
 
 #### Software requirements:
-This package has been tested and on
+This package has been tested on
 - MATLAB R2017a
 - MATLAB R2018b
 
