@@ -1,0 +1,9 @@
+name: rnn
+channels:
+- defaults
+dependencies:
+- python
+- matplotlib
+- numpy
+- scipy
+- tqdm
