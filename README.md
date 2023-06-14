@@ -24,7 +24,7 @@ Installation time may vary.
 Downloading of additional dependencies are not required as they have been embedded in the functions.
 
 ### Demo:
-Open Figure_2.m
+Open Figure_2.m\
 Set the path by adding with subfolders where folder ‘code’ was saved.
 ```
 	base = uigetdir ; % Select ‘data’ path (downloaded from Zenodo)
