@@ -2,7 +2,9 @@
 Emergence of cortical network motifs for short-term memory during learning
 
 ### Dataset:
-Dataset can be downloaded at https://doi.org/10.5281/zenodo.8031278
+Dataset can be downloaded at: /
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8031278.svg)](https://doi.org/10.5281/zenodo.8031278)
+
 
 ### Hardware requirements:
 As size of dataset may range from 500 MB - 24 GB, package requires standard computer with enough RAM to support the in-memory operations.
