@@ -24,23 +24,27 @@ Installation time may vary.
 Downloading of additional dependencies are not required as they have been embedded in the functions.
 
 ### Demo:
-Open Figure_2.m\
-Set the path by adding with subfolders where folder ‘code’ was saved.
+Open Figure_5.m\
+Set the path by adding with subfolders.
 ```
-	base = uigetdir ; % Select ‘data’ path (downloaded from Zenodo)
+	parameters.root_folder = uigetdir; % CD to folder where files from Zenodo were downloaded
 	data = get_data(parameters); % (Long runtime)
 ```
 In instances where (long runtime) are indicated, a pre-processed dataset will be available. You can choose to load the pre-processed dataset.
+```	
+	% Load raw dataset containing raw activity
+	load 'retained_eliminated_data_raw.mat' 
+	
+	% Get reconstructed retained and eliminated activity (long runtime)
+	retained_elim_data = get_retained_eliminated_activity(parameters,data); 
+	
+	% Or load pre-processed dataset
+	load 'retained_elim_data.mat'
 ```
-	load (‘non_matched_dataset.mat’); 
+Once loaded, run the function to analyse and plot
 ```
-Once loaded, run the function to obtain ROC data for ‘stimulus’.
-```
-	ROC_population_data.stimulus = get_ROC_choice_stim_mode(parameters, data, ’stimulus’);
-```
-Plot the figure.
-```
-	plot_auc_choice_stim_population(parameters, ROC_population_data.stimulus, parameters.sample_epoch)
+	% Plot average number of retained and lost functional coupling
+	[prop_retained,prop_lost] = plot_num_retained_lost_cells(retained_elim_data);
 ```
 
 ## Correspondence
