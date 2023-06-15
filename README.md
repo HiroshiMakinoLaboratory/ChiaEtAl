@@ -30,7 +30,7 @@ Open Figure_5.m\
 Set the path by adding with subfolders.
 ```
 	parameters.root_folder = uigetdir; % CD to folder where files from Zenodo were downloaded
-	data = get_data(parameters); % (Long runtime)
+	cd(parameters.root_folder)
 ```
 In instances where (long runtime) are indicated, a pre-processed dataset will be available. You can choose to load the pre-processed dataset.
 ```	
