@@ -1,4 +1,4 @@
-# ChiaEtAl
+# ChiaEtAl2023NatureCommunications
 Emergence of cortical network motifs for short-term memory during learning
 
 ### Dataset:
