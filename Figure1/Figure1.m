@@ -21,6 +21,12 @@ for hide = 1
     parameters.new_region_idx = [1 2 3 5 6 4 7 8];
 end
 
+%% Plot behavior curve
+load 'behavior_performance.mat'
+
+% Plot behavior curve
+plot_behavior_curve(behavior_performance)
+
 %% Get ROC for each animal (Single cell level)
 load 'matched_dataset.mat'
 
