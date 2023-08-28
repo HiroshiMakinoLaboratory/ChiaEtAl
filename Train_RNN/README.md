@@ -7,7 +7,7 @@
 git clone https://github.com/HiroshiMakinoLaboratory/ChiaEtAl2023NatureCommunications.git
 ```
 
-2. Create a conda environment and install gamma
+2. Create a conda environment
 ```
 cd ChiaEtAl2023NatureCommunications/Train_RNN
 conda env create -f environment.yml
