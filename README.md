@@ -3,7 +3,7 @@ Emergence of cortical network motifs for short-term memory during learning
 
 ### Dataset:
 Dataset can be downloaded at: 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8031278.svg)](https://doi.org/10.5281/zenodo.8031278)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8031277.svg)](https://doi.org/10.5281/zenodo.8031277)
 
 
 ### Hardware requirements:
