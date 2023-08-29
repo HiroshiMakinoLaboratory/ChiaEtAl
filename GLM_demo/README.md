@@ -32,17 +32,17 @@ Input:
 
 4 Steps procedures:
 
-1. get_GLM_parameters.m
+1. get_GLM_parameters.m  
 Process raw data to run lassoGLM
 Output: Variables required for running GLM. e.g. Spike activity, task predictors
 
-2. run_GLM
-Perform GLM using lassoGLM from MATLAB.
+2. run_GLM  
+Perform GLM using lassoGLM from MATLAB.  
 Output: Results from GLM. E.g. GLM coefficients for task variables
 
-3. get_GLM_significance
-Determine statistical significance of a given task predictors by marginalising predictor
+3. get_GLM_significance  
+Determine statistical significance of a given task predictors by marginalising predictor  
 Output: Pseudo explained variance of task predictors after removal
 
-4. concat_GLM_results.m
+4. concat_GLM_results.m  
 Output: Concatenated variables across sessions and animals
